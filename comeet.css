@@ -1,3 +1,8 @@
+#page-top .wrapper .container{
+    width:100%;
+    padding:0;
+}
+
 .brandBottomLine{
     border-bottom: none;
 }
@@ -24,6 +29,10 @@ font-size: 22px;
     Color: white;
     font-weight: lighter;
     font-size: 2.4em;
+}
+
+.inner-page .inner-header .container{
+      background-image: url(http://codevalue.net/images/inner_title_bg.png);
 }
 
 #aboutCompany h2{
@@ -113,6 +122,10 @@ a:hover{
  text-transform:none;
 }
 
+.row.extraPaddingBottom{
+    padding-bottom:20px;
+}
+
 .col-lg-offset-2 {
     margin-left: 4% !important;
 }
@@ -125,6 +138,20 @@ a:hover{
 #aboutCompany{
     display:none;
 }
+}
+
+@media (min-width: 769px) and (max-width: 1199px){
+ #page-top .wrapper .container{
+        width:100%;
+        padding:0;
+        }
+}
+
+@media (min-width: 1200px){
+    #page-top .wrapper .container{
+        width:100%;
+        padding:0;
+    }
 }
 
 

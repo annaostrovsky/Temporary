@@ -1,5 +1,3 @@
-
-
 .brandBottomLine{
     border-bottom: none;
 }
@@ -29,15 +27,17 @@ font-size: 22px;
 }
 
 #aboutCompany h2{
-    Color: white;
+    Color: transparent;
     font-weight: lighter;
     font-size: 1.4em;
 }
 
-
-.CareerCompanyCtrl> h2.smallTitle {
-    display:none;
+#aboutCompany h2::before{
+    content: "Careers";
+    text-transform: uppercase;
+    color: white;
 }
+
 
 .positionsList h2{
 display: none !important;
@@ -115,10 +115,10 @@ a:hover{
 }
 
 .col-lg-offset-2 {
-    margin-left: 2% !important;
+    margin-left: 4% !important;
 }
 .col-lg-8 {
-    width: 100% !important;
+    width: 92% !important;
 }
 
 

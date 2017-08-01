@@ -39,6 +39,10 @@ font-size: 22px;
     display:none;
 }
 
+.positionsList h2{
+display: none !important;
+}
+
 h2.smallTitle {
       font-size: 1.2em;
       text-transform: none;
@@ -50,6 +54,7 @@ h2.smallTitle {
      background-color: #f2f2f2;
      transition: all 0.5s;
      border: none;  
+     padding: 15px 20px;
 
 }
 
@@ -57,10 +62,9 @@ h2.smallTitle {
     color:#32b3e9;
 }
 
-.positionsList  .positionItem:hover{
-     padding: 15px 20px;
+.positionsList  .positionItem:hover{    
      border: none;
-     box-shadow: 0 2px 5px rgba(0,0,0,0.3)
+     box-shadow: 0 3px 5px rgba(0,0,0,0.3)
    
 }
 
@@ -111,10 +115,10 @@ a:hover{
 }
 
 .col-lg-offset-2 {
-    margin-left: 4% !important;
+    margin-left: 2% !important;
 }
 .col-lg-8 {
-    width: 92% !important;
+    width: 100% !important;
 }
 
 

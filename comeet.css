@@ -33,8 +33,7 @@ font-size: 22px;
 }
 
 #aboutCompany h2::before{
-    content: "Careers";
-    text-transform: uppercase;
+    content: "Careers";   
     color: white;
 }
 
@@ -64,13 +63,13 @@ h2.smallTitle {
 
 .positionsList  .positionItem:hover{    
      border: none;
-     box-shadow: 0 3px 5px rgba(0,0,0,0.3)
+     box-shadow: 0 2px 5px rgba(0,0,0,0.3)
    
 }
 
 .positionItem h4{
- color: #32b3e9;
-         font-size: 1.2em;
+      color: #32b3e9;
+      font-size: 1.2em;
 }
 
 
@@ -119,6 +118,13 @@ a:hover{
 }
 .col-lg-8 {
     width: 92% !important;
+}
+
+
+@media (max-width: 768px){
+#aboutCompany{
+    display:none;
+}
 }
 
 

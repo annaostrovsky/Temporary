@@ -1,4 +1,5 @@
 
+
 .brandBottomLine{
     border-bottom: none;
 }
@@ -14,17 +15,21 @@ font-size: 22px;
 }
 
 #aboutCompany{
-    display: none;
-    margin:0;
-    padding: 0;
-}
-
-h2.smallTitle {
     background-image: url(http://codevalue.net/images/inner_title_bg.png);
     background-repeat: no-repeat;
     background-color:#32b3e9;
     background-position: right center;
     height: 70px;
+    margin:0;
+    padding: 0;
+    Color: white;
+    font-weight: lighter;
+    font-size: 2.4em;
+}
+
+h2.smallTitle {
+      font-size: 1.2em;
+      text-transform: none;
  }
 
 
@@ -36,7 +41,7 @@ h2.smallTitle {
 
 }
 
-.positionItem:hover{
+.positionsList  .positionItem:hover{
      border: none;
      box-shadow: 0 2px 5px rgba(0,0,0,0.3)
    
@@ -79,8 +84,20 @@ a{
     color:#32b3e9;
 }
 
+a:hover{
+    text-decoration: none;
+    color:#1baae7;
+}
+
 .company-links > li{
  text-transform:none;
+}
+
+.col-lg-offset-2 {
+    margin-left: 4% !important;
+}
+.col-lg-8 {
+    width: 92% !important;
 }
 
 

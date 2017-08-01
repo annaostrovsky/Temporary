@@ -133,8 +133,11 @@ a:hover{
     display:none;
 }
 
-  .col-sm-12 {
-    width: 100% ;
+.col-md-offset-1 {
+    margin-left: 4% ;
+}
+.col-md-10 {
+    width: 92% ;
 }
 
 }
@@ -145,10 +148,10 @@ a:hover{
         padding:0;
         }
 
-  .col-md-offset-2 {
+  .col-md-offset-1 {
     margin-left: 20.333333% ;
 }
-  .col-md-8 {
+  .col-md-10 {
     width: 60.333333%;
 }
 }
@@ -160,10 +163,10 @@ a:hover{
         padding:0;        
     }
 .col-lg-offset-2 {
-    margin-left: 4% ;
+    margin-left: 20% ;
 }
 .col-lg-8 {
-    width: 92% ;
+    width: 60% ;
 }
 }
 

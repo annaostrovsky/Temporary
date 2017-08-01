@@ -24,6 +24,7 @@ font-size: 22px;
     Color: white;
     font-weight: lighter;
     font-size: 2.4em;
+    display: none;
 }
 
 .inner-page .inner-header .container{
@@ -126,58 +127,6 @@ a:hover{
 @media (max-width: 768px){
 #aboutCompany{
     display:none;
-}
-
-.col-md-offset-1 {
-    margin-left: auto;
-    margin-right: auto;
-}
-.col-md-10 {
-    width: 750px ;
-   display: inline-block;
-   margin-left: 50%; 
-   transform: translateX(-50%); 
-  -ms-transform: translateX(-50%);
-}
-
-}
-
-@media (min-width: 769px) and (max-width: 1199px){
- #page-top .wrapper .container{
-        width:100%;
-        padding:0;
-        }
-
-  .col-md-offset-1 {
-     margin-left: auto;
-    margin-right: auto;
-}
-  .col-md-10 {
-     width: 970px;
-    display: inline-block;
-   margin-left: 50%; 
-   transform: translateX(-50%); 
-  -ms-transform: translateX(-50%);
-   
-}
-}
-
-@media (min-width: 1200px){
-    #page-top .wrapper .container{
-        width:100%;
-        max-width:100%;
-        padding:0;        
-    }
-.col-lg-offset-2 {
-    margin-left: auto;
-    margin-right: auto;
-}
-.col-lg-8 {
-    width: 1170px ;
-    display: inline-block;
-   margin-left: 50%; 
-   transform: translateX(-50%); 
-  -ms-transform: translateX(-50%);
 }
 }
 

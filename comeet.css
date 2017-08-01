@@ -126,18 +126,17 @@ a:hover{
     padding-bottom:20px;
 }
 
-.col-lg-offset-2 {
-    margin-left: 4% !important;
-}
-.col-lg-8 {
-    width: 92% !important;
-}
 
 
 @media (max-width: 768px){
 #aboutCompany{
     display:none;
 }
+
+  .col-sm-12 {
+    width: 100% ;
+}
+
 }
 
 @media (min-width: 769px) and (max-width: 1199px){
@@ -145,13 +144,27 @@ a:hover{
         width:100%;
         padding:0;
         }
+
+  .col-md-offset-2 {
+    margin-left: 20.333333% ;
+}
+  .col-md-8 {
+    width: 60.333333%;
+}
 }
 
 @media (min-width: 1200px){
     #page-top .wrapper .container{
         width:100%;
-        padding:0;
+        max-width:100%;
+        padding:0;        
     }
+.col-lg-offset-2 {
+    margin-left: 4% ;
+}
+.col-lg-8 {
+    width: 92% ;
+}
 }
 
 

@@ -134,10 +134,12 @@ a:hover{
 }
 
 .col-md-offset-1 {
-    margin-left: 4% ;
+     margin-left: auto;
+    margin-right: auto;
 }
 .col-md-10 {
-    width: 92% ;
+    width: 750px ;
+     display: block;
 }
 
 }
@@ -149,10 +151,13 @@ a:hover{
         }
 
   .col-md-offset-1 {
-    margin-left: 6.333333%;
+     margin-left: auto;
+    margin-right: auto;
 }
   .col-md-10 {
-    width: 80.333333%;
+     width: 970px;
+    display: block;
+   
 }
 }
 
@@ -163,10 +168,12 @@ a:hover{
         padding:0;        
     }
 .col-lg-offset-2 {
-    margin-left: 20% ;
+    margin-left: auto;
+    margin-right: auto;
 }
 .col-lg-8 {
-    width: 60% ;
+    width: 1170px ;
+     display: block;
 }
 }
 

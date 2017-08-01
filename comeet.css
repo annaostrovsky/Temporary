@@ -1,0 +1,39 @@
+.positionsList .positionsGroupTitle {
+    font-size: 1.4em;
+    color: #32b3e9;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    margin-right: 8px;
+}
+
+.positionsList .positionItem {
+    background: #d4e5e8;
+    border-radius: 5px;
+}
+
+.brandColoredButton {
+    background-color: #32b3e9;
+    color: #fff;
+    border-bottom: 1px solid #1278a3;
+}
+
+#aboutCompany {
+    display: none;
+}
+
+.positionsList h2::before {
+    content: "About company     ";
+}
+
+h2.smallTitle {
+    background-image: url(http://codevalue.net/images/inner_title_bg.png);
+    height: 70px;
+}
+
+.col-lg-offset-2 {
+    margin-left: 4% !important;
+}
+.col-lg-8 {
+    width: 92% !important;
+}

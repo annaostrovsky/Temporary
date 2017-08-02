@@ -12,10 +12,10 @@ color: #333;
 font-size: 22px;
 }
 
-.inner-page .inner-header  {
-    background-image: url(http://codevalue.net/images/inner_title_bg.png);
-    background-repeat: no-repeat;
-    background-position: right center;
+/deep/.inner-page .inner-header  {
+    background-image: url(http://codevalue.net/images/inner_title_bg.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: right center !important;
 }
  
 

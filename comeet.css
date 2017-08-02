@@ -12,23 +12,12 @@ color: #333;
 font-size: 22px;
 }
 
-#aboutCompany{
-    
-    height: 70px;
-    line-height: 70px;
-    margin:0;
-    padding: 0;
-    Color: white;
-    font-weight: lighter;
-    font-size: 2.4em;
-    
+.inner-page .inner-header  {
+    background-image: url(http://codevalue.net/images/inner_title_bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
 }
-
- .container{
-      background-image: url(http://codevalue.net/images/inner_title_bg.png);
-      background-repeat: no-repeat;
-      background-position: right center;
-}
+ 
 
 #aboutCompany h2{
  display:none;  

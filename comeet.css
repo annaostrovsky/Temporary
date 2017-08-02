@@ -24,8 +24,10 @@ font-size: 22px;
     
 }
 
-.inner-page .inner-header .container{
+ .container{
       background-image: url(http://codevalue.net/images/inner_title_bg.png);
+      background-repeat: no-repeat;
+      background-position: right center;
 }
 
 #aboutCompany h2{

@@ -11,12 +11,6 @@
 color: #333;
 font-size: 22px;
 }
-
-/deep/.inner-page .inner-header  {
-    background-image: url(http://codevalue.net/images/inner_title_bg.png) !important;
-    background-repeat: no-repeat !important;
-    background-position: right center !important;
-}
  
 
 #aboutCompany h2{

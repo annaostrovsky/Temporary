@@ -6,6 +6,10 @@
     border-top: none;
 }
 
+#aboutCompany{
+    margin: 0;
+}
+
 
 .positionsList .positionsGroupTitle{
 color: #333;
@@ -111,9 +115,7 @@ a:hover{
 .container {
     width: 1170px;
 }
-#aboutCompany h2{
-    padding-left:20%;
-}
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px)
@@ -121,18 +123,14 @@ a:hover{
 .container {
     width: 970px;
 }
-#aboutCompany h2{
-    padding-left:18%;
-}
+
 }
 
 @media (min-width: 768px) and (max-width: 1198px){
 .container {
     width: 750px;
 }
-#aboutCompany h2{
-    padding-left:8%;
-}
+
 }
 
 

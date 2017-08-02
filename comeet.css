@@ -29,22 +29,7 @@ font-size: 22px;
 }
 
 #aboutCompany h2{
-    Color: transparent;
-    font-weight: lighter;
-    font-size: 1.4em;
-    background-image: url(http://codevalue.net/images/inner_title_bg.png);
-    background-repeat: no-repeat;
-    background-color:#32b3e9;
-    background-position: right center;
-    margin-left: -50vw;
-    width: 100vw;
-    position: relative;
-    left: 50%;   
-}
-
-#aboutCompany h2::before{
-    content: "Careers";   
-    color: white;
+ display:none;  
 }
 
 

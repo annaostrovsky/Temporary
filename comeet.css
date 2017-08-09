@@ -15,10 +15,25 @@
 color: #333;
 font-size: 22px;
 }
+
+.company-description {
+    p {
+        &:first-of-type {
+            font-weight: 500;
+            color: #32b3e9;
+            font-size: 36px;
+        }
+    }
+}
  
 
 #aboutCompany h2{
  display:none;  
+}
+
+.career-image-top{
+    width: 100%;
+    height: 380px;
 }
 
 

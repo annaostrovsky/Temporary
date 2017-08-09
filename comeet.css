@@ -10,30 +10,26 @@
     margin: 0;
 }
 
-.career-image-top{
-    width: 100%;
-    height: 380px;
-}
-
-.company-description {
-    p {
-        &:first-of-type {
-            font-weight: 500;
-            color: #32b3e9;
-            font-size: 36px;
-        }
-    }
-}
-
 
 .positionsList .positionsGroupTitle{
 color: #333;
 font-size: 22px;
 }
+
+.career-image-top{
+    width: 100%;
+    height: 380px;
+}
  
 
 #aboutCompany h2{
  display:none;  
+}
+
+.company-description {
+    p {
+        color: black
+    }
 }
 
 
